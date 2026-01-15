@@ -1,26 +1,58 @@
+
 App Name: QRBarScan
 
-1. Data Collected
-- Camera: The app requires camera access strictly to scan QR/barcodes. Images are not uploaded or transmitted.
-- Scanned Content: Text/URLs from codes are stored locally on the device only (scan history) to help the user. This is not shared unless the user explicitly uses the Export/Share feature.
+1. Data We Collect
+
+Camera Access:
+Required to scan QR codes and barcodes in real time. Camera frames are processed locally on your device and are not stored or transmitted.
+  
+Gallery Images:
+When you choose the Scan Gallery feature, selected images are processed locally on your device only to detect QR/barcodes. Images are not uploaded or stored.
+Scan History:
+
+Scanned QR/barcode content (text or URLs) may be stored locally on your device to provide a scan history feature.
 
 2. How Data Is Used
-- Camera access is only used for scanning in real-time. No camera frames are sent off-device.
-- Scan history is stored locally (SharedPreferences) so you can view, copy, clear, or export your scans.
+Camera and gallery access are used solely for scanning QR codes and barcodes.
+All barcode processing is performed locally on your device using on-device machine learning.
+Scan history remains on your device and is never transmitted to any server.
 
-3. Sharing & Export
-- Export and Share are deliberate user actions that open the Android share sheet. The app does not automatically share data.
+3. Ads and Third-Party Services
 
-4. Third Parties & Ads
-- This app version contains No ads, No analytics, and No third-party tracking.
+This app displays banner advertisements provided by Google AdMob.
+AdMob may collect advertising identifiers (such as the Advertising ID) and limited device information for ad delivery, personalization, and fraud prevention.
+Data collected by AdMob is governed by Google’s Privacy Policy.
+
+4. Sharing & Export
+
+The app allows you to copy or share scanned content using Android’s system share features.
+Sharing is initiated only by explicit user action. The app does not automatically share any data.
 
 5. Permissions
-- CAMERA: Required to scan QR/barcodes. The app requests this at runtime.
+
+CAMERA: Required to scan QR codes and barcodes using the device camera.
+READ MEDIA IMAGES / READ EXTERNAL STORAGE: Required only when you choose to scan QR codes from images in your gallery.
+INTERNET & NETWORK STATE: Required to display advertisements.
 
 6. Data Retention & Deletion
-- You can clear scan history inside the app (History → Clear). Clearing removes stored scans from local storage.
 
-7. Contact
-- For questions or data requests, contact: programmerpakistani@gmail.com
+Scan history is stored locally on your device.
+You can delete scan history at any time from the History screen.
 
-This app does not collect, transmit, store, or share any personal data on servers. All processing happens locally on your device. By using the app you consent to this privacy policy.
+7. Children’s Privacy
+
+This app is not specifically designed for children under the age of 13.
+The app does not knowingly collect personal information from children.
+
+8. Changes to This Privacy Policy
+
+This privacy policy may be updated to reflect new features or policy requirements.
+
+9. Contact
+
+If you have any questions about this Privacy Policy, contact:
+[programmerpakistani@gmail.com](mailto:programmerpakistani@gmail.com)
+
+
+By using this app, you agree to this Privacy Policy.
+
