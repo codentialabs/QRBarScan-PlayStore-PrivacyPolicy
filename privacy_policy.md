@@ -19,7 +19,7 @@ Scan history remains on your device and is never transmitted to any server.
 
 3. Ads and Third-Party Services
 
-This app displays banner advertisements provided by Google AdMob.
+This app displays banner and interstitial advertisements provided by Google AdMob.
 AdMob may collect advertising identifiers (such as the Advertising ID) and limited device information for ad delivery, personalization, and fraud prevention.
 Data collected by AdMob is governed by Google’s Privacy Policy.
 
